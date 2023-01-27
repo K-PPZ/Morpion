@@ -5,12 +5,34 @@
     <meta name="description" content="Morpion">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
     <link rel="stylesheet" lang="sass" href="css/style.scss">
     <title>Morpion</title>
   </head>
 
   <body>
-    
+    <section>
+      <img src="img/logo.svg" alt="#">
+      
+      <div id="menu">
+        <p id="choose_player">pick player 1's mark</p>
+
+        <div id="contain_imgs">
+          <div id="img_x">
+            <img src="img/icon-x-grey.svg" alt="#">
+          </div>
+
+          <div id="img_o">
+            <img src="img/icon-o-grey.svg" alt="#">
+          </div>
+        </div>
+
+        <p id="remember">remember : x goes first</p>
+      </div>
+
+      <button id="btn_yellow" type="submit">new game (vs cpu)</button>
+      <button id="btn_blue" type="submit">new game (vs player)</button>
+    </section>
     
     <script src="js/app.js"></script>
   </body>
