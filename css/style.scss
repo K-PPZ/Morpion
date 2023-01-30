@@ -14,7 +14,6 @@ body {
     background-color: $theme;
     @include center();
     font-family: 'Outfit', sans-serif;
-    font-weight: bold;
 }
 
 section {
@@ -22,7 +21,7 @@ section {
     flex-direction: column;
     justify-content: space-around;
     width: 40%;
-    height: 50%;
+    height: 60%;
 }
 
 #menu {
@@ -32,20 +31,24 @@ section {
     background-color: #1F3641;
     border-radius: $radius;
     text-transform: uppercase;
+    box-shadow: 0px 6px 0px 0px #10212A;
+    margin-bottom: 3%;
 }
 
 #choose_player {
     color: $light_color;
+    font-weight: bold;
 }
 
 #remember {
     color: #647A85;
+    font-size: 85%;
 }
 
 #contain_imgs {
     background-color: $theme;
-    width: 90%;
-    padding: 3%;
+    width: 85%;
+    padding: 2%;
     border-radius: $radius;
     @include center();
 
@@ -53,7 +56,7 @@ section {
         width: 50%;
         @include center();
         border-radius: $radius;
-        padding: 2%;
+        padding: 7%;
 
         & img {
             width: 20%;
@@ -61,15 +64,46 @@ section {
     }
 
     & div:hover {
-        background-color: $light_color;
+        cursor: pointer;
     }
 }
 
+#img_x {
+    background-image: url(../img/icon-x-grey.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+}
+
 #img_x:hover {
+    background-color: #21313A;
+}
+
+#img_o:hover {
+    background-color: #21313A;
+}
+
+#img_o {
+    background-image: url(../img/icon-o-grey.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+}
+
+#img_x_on {
     background-image: url(../img/icon-x-outline-grey.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20%;
+    background-color: #A8BFC9;
+}
+
+#img_o_on {
+    background-image: url(../img/icon-o-outline-grey.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    background-color: #A8BFC9;
 }
 
 button {
@@ -78,16 +112,35 @@ button {
     padding: 2%;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
 
 #btn_yellow {
     background-color: #F2B137;
     color: $theme;
-    font-weight: bold;
+    font-weight: 900;
+    box-shadow: 0px 6px 0px 0px #CC8B13;
+    height: 13%;
+    font-size: 95%;
 }
 
 #btn_blue {
     background-color: #31C3BD;
-    font-weight: bold;
+    font-weight: 900;
     color: $theme;
+    box-shadow: 0px 6px 0px 0px #118C87;
+    height: 13%;
+    font-size: 95%;
+}
+
+#btn_yellow:active {
+    background-color: #FFC860;
+    box-shadow: none;
+    margin-bottom: -1%;
+}
+
+#btn_blue:active {
+    background-color: #65E9E4;
+    box-shadow: none;
+    margin-bottom: -1%;
 }
