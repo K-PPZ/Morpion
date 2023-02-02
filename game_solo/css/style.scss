@@ -61,6 +61,12 @@ section {
     box-shadow: 0px 6px 0px 0px #6B8997;
     border-radius: 15px;
     @include center();
+    cursor: pointer;
+
+    &:active {
+        box-shadow: none;
+        margin-bottom: -1%;
+    }
 
     & img {
         width: 40%;
@@ -85,6 +91,7 @@ section {
         background-color: #1F3641;
         border-radius: $radius;
         box-shadow: 0px 6px 0px 0px #10212A;
+        cursor: pointer;
     }
 }
     
