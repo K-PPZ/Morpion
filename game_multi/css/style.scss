@@ -144,3 +144,43 @@ section {
 #o_score {
     background-color: #F2B137;
 }
+
+.hover_x:hover {
+    background-image: url(../../img/icon-x-outline.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hover_o:hover {
+    background-image: url(../../img/icon-o-outline.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.case_x {
+    background-image: url(../../img/icon-x.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $theme;
+}
+
+.case_x:hover {
+    background-image: url(../../img/icon-x.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $theme;
+}
+
+.case_o {
+    background-image: url(../../img/icon-o.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $theme;
+}
+
+.case_o:hover {
+    background-image: url(../../img/icon-o.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $theme;
+}

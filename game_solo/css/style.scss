@@ -145,8 +145,14 @@ section {
     background-color: #F2B137;
 }
 
-.cases_morpion:hover {
+.hover_x:hover {
     background-image: url(../../img/icon-x-outline.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hover_o:hover {
+    background-image: url(../../img/icon-o-outline.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
